@@ -30,6 +30,12 @@
 		<version>5.1.21</version>
 	</dependency>
 	<dependency>
+		<groupId>cglib</groupId>
+		<artifactId>cglib</artifactId>
+		<version>2.2.2</version>
+	</dependency>
+
+	<dependency>
 		<groupId>org.springframework</groupId>
 		<artifactId>spring-core</artifactId>
 		<version>${spring.version}</version>
@@ -44,11 +50,12 @@
     	<artifactId>spring-context</artifactId>
     	<version>${spring.version}</version>
     </dependency>	
-	<dependency>
-		<groupId>cglib</groupId>
-		<artifactId>cglib</artifactId>
-		<version>2.2.2</version>
+    <dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-jdbc</artifactId>
+		<version>${spring.version}</version>
 	</dependency>
+
   </dependencies>
 
 
